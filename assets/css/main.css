@@ -42,3 +42,11 @@ a{
 	padding:5px;
 	border-bottom: 1px solid black;
 	}
+.footer {
+    padding:20px;
+    color:white;
+    background-color:black;
+}
+    .footer i {
+        padding:20px;
+    }
