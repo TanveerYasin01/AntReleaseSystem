@@ -1,0 +1,44 @@
+/* CSS Document */
+.container {
+    max-width: 100% !important;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	cursor:pointer;
+}
+.header{
+	padding:10px;}
+.logoDiv{
+	padding:10px;
+	display:inline-flex;
+	}
+	.logo{
+		    color: white;
+    background: #009DD9;
+    width: 60px;
+    height: 60px;
+    border-radius: 38px;
+    padding: 12px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 5px 1px grey;
+    font-weight: bold;
+	}
+	.logotext{
+		margin-left:20px;
+		padding:5px;
+		font-size:28px;
+		font-weight:bold}
+.userdiv{
+	padding:10px;}
+	
+.dropdown-menu {
+	padding:0px;
+	border: 1px solid black;
+	}
+.dropdown-menu > li{
+	color:black;
+	padding:5px;
+	border-bottom: 1px solid black;
+	}
