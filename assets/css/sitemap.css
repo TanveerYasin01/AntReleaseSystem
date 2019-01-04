@@ -30,9 +30,9 @@
     text-overflow: ellipsis;
 }
 
-	li{
+	/*li{
 		    padding: 4px 0px 4px 0px;
-			}
+			}*/
 	.sitemaptreecontainer{
 		  height: 550px;
   overflow: auto;
