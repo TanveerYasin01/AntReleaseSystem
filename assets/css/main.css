@@ -20,8 +20,11 @@ a{
     background-color: #e5e5e5;
     height: 30px;
 }
+.navbar-collapse {
+    font-size:12px;
+}
 .Dynamic {
-margin:5px;
+    margin: 5px;
 }
 .Notice {
     margin: 5px;
