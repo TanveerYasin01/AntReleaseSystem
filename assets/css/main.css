@@ -115,7 +115,10 @@ a{
     background-color: black;
     text-align:center;
 }
-
+.footer-image-qr {
+    margin-left:auto;
+    margin-right:auto;
+}
 ::-webkit-scrollbar {
     width: 8px;
 }
