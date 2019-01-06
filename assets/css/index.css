@@ -121,3 +121,12 @@ ul.timeline {
     color: white;
     padding-left: 20px;
 }
+.btn-outline-info {
+    color: #ff6a00;
+    border-color: #ff6a00;
+}
+.btn-outline-info:hover {
+    background-color:#ff6a00;
+    color: white;
+    border-color: #ff6a00;
+}
