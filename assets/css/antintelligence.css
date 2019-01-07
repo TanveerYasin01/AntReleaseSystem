@@ -35,6 +35,14 @@
     width: 230px;
     background-color: #ff6a00;
 }
+.nav-tabs {
+    width: 90%;
+    margin-left: 4%;
+}
+.nav-link {
+    color:black;
+    font-size:12px;
+}
 ul.timeline {
     list-style-type: none;
     position: relative;
