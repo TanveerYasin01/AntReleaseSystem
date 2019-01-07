@@ -1,0 +1,366 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Untitled Document</title>
+    <link rel="stylesheet" type="text/css" href="assets/PlugIns/bootstrap-4.2.1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/sitemap.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/antintelligence.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="assets/PlugIns/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function (e) {
+            $("#UserImage").on("mouseover", function () {
+                $("#dropdown-menu").show();
+            });
+            $("#dropdown-menu").on("mouseover", function () {
+                $("#dropdown-menu").show();
+            });
+            $("#dropdown-menu").on("mouseleave", function () {
+                $("#dropdown-menu").hide();
+            });
+            $("#UserImage").on("mouseleave", function () {
+                $("#dropdown-menu").hide();
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="main-header">
+            <header class="container">
+                <nav class="navbar navbar-expand-lg">
+                    <a class="navbar-brand" href="javascript:void(0)"><img src="assets/images/logo.png" width="150" height="40" id="UserImage" /></a>
+                    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navb" aria-expanded="false">
+                        <i class="fas fa-sliders-h"></i>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="navb" style="">
+                        <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="javascript:void(0)">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Ant Intelligence</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Ant Release</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Activity</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Library</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript:void(0)">Refute Rumors</a>
+                            </li>
+
+                        </ul>
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control SearchInput" type="text" placeholder="Search">
+                        </form>
+                    </div>
+                    <div class="Dynamic"><a><i class="fas fa-dna"></i> Dynamic</a></div>
+                    <div class="Notice"><a><i class="far fa-bell"></i> Notice</a></div>
+                    <div class="dropdown DropdownDiv">
+                        <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
+                            <img src="assets/images/userimage.png" width="40" height="40" id="UserImage" /> Official
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">User Name</a>
+                            <a class="dropdown-item" href="#">My Release</a>
+                            <a class="dropdown-item" href="#">My Purse</a>
+                            <a class="dropdown-item" href="#">Log Out</a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+        </div>
+        <br />
+        <div class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 main-slider">
+                        <div id="latest-articles" class="row latest-articles">
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist" style="width:96%;">
+                                <li class="nav-item">
+                                    <a class="nav-link active" data-toggle="tab" href="#home">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#second">second </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#third">third </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#fourth">fourth</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#fifth">fifth</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content col-12">
+                                <div id="home" class="container tab-pane active">
+                                    <br>
+                                    <div id="slider" class="carousel slide" data-ride="carousel">
+                                        <!-- Indicators -->
+                                        <ul class="carousel-indicators">
+                                            <li data-target="#slider" data-slide-to="0" class="active"></li>
+                                            <li data-target="#slider" data-slide-to="1"></li>
+                                            <li data-target="#slider" data-slide-to="2"></li>
+                                        </ul>
+
+                                        <!-- The slideshow -->
+                                        <div class="carousel-inner">
+                                            <div class="carousel-item active">
+                                                <img src="assets/images/Slider/la.jpg" alt="Los Angeles" width="1100" height="350">
+                                                <div class="carousel-caption">
+                                                    <p>We had such a great time in LA!</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/Slider/chicago.jpg" alt="Chicago" width="1100" height="350">
+                                                <div class="carousel-caption">
+                                                    <p>We had such a great time in LA!</p>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <img src="assets/images/Slider/ny.jpg" alt="New York" width="1100" height="350">
+                                                <div class="carousel-caption">
+                                                    <p>We had such a great time in LA!</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <!-- Left and right controls -->
+                                        <a class="carousel-control-prev" href="#slider" data-slide="prev">
+                                            <span class="carousel-control-prev-icon"></span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#slider" data-slide="next">
+                                            <span class="carousel-control-next-icon"></span>
+                                        </a>
+                                    </div>
+                                    <br />
+                                    <div class="row latest-row">
+                                        <div class="col-4">
+                                            <img class="img-thumbnail latest-image" src="assets/images/Latest/11.jpg" width="230" height="180" />
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row latest-heading">
+                                                <h6 class="col-12">China Tower Think of Tank Release "2018 BAS industry Release report"</h6>
+                                            </div>
+                                            <div class="row latest-context">
+                                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            </div>
+                                            <div class="latest-official">
+                                                <img src="assets/images/userimage.png" width="20" height="20" id="UserImage"><h6> Ant Official  28-09-2018</h6>
+                                                <span class="float-right"><i class="fas fa-eye"></i> 1000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row latest-row">
+                                        <div class="col-4">
+                                            <img class="img-thumbnail latest-image" src="assets/images/Latest/22.jpg" width="230" height="180" />
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row latest-heading">
+                                                <h6 class="col-12">Ten Seminar in eight months, What did the japan finance agency Discuss?</h6>
+                                            </div>
+                                            <div class="row latest-context">
+                                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            </div>
+                                            <div class="latest-official">
+                                                <img src="assets/images/userimage.png" width="20" height="20" id="UserImage"><h6> Ant Official  28-09-2018</h6>
+                                                <span class="float-right"><i class="fas fa-eye"></i> 1000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row latest-row">
+                                        <div class="col-4">
+                                            <img class="img-thumbnail latest-image" src="assets/images/Latest/33.jpg" width="230" height="180" />
+                                        </div>
+                                        <div class="col-8">
+                                            <div class="row latest-heading">
+                                                <h6 class="col-12">Vitalik Buterin: The first five years of Ethereum taught me</h6>
+                                            </div>
+                                            <div class="row latest-context">
+                                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                            </div>
+                                            <div class="latest-official">
+                                                <img src="assets/images/userimage.png" width="20" height="20" id="UserImage"><h6> Ant Official  28-09-2018</h6>
+                                                <span class="float-right"><i class="fas fa-eye"></i> 1000</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="button-row center">
+                                        <button class="btn btn-outline-info center"> Read more...</button>
+                                    </div>
+                                </div>
+                                <div id="second" class="container tab-pane fade">
+                                    <br>
+                                    <h3>Second Tab</h3>
+                                    <p>Second will load here with picture and all its contents.....</p>
+                                </div>
+                                <div id="third" class="container tab-pane fade">
+                                    <br>
+                                    <h3>Third Tab</h3>
+                                    <p>Third will load here with picture and all its contents.....</p>
+                                </div>
+                                <div id="fourth" class="container tab-pane fade">
+                                    <br>
+                                    <h3>Fourth Tab</h3>
+                                    <p>Fourth will load here with picture and all its contents.....</p>
+                                </div>
+                                <div id="fifth" class="container tab-pane fade">
+                                    <br>
+                                    <h3>Fifth Tab</h3>
+                                    <p>Fifth will load here with picture and all its contents.....</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 main-latest">
+                        <div class="Newsfeed row">
+                            <div class="NewsFeedHeader col-12"> Latest News </div>
+                            <br />
+                            <div class="col-12 image-div">
+                                <div class="image-badge"><p>Top 1</p></div>
+                                <img class="image-below" src="assets/images/Latest/11.jpg" width="250" height="100" />
+                                <div class="image-title"><p>Title</p></div>
+                            </div>
+                            <div class="col-12 latest-news-row">
+                                <div class="row">
+                                    <div class="col-5 image-div">
+                                        <div class="image-badge"><p>Top 2</p></div>
+                                        <img class="latest-news-image" src="assets/images/Latest/11.jpg" width="230" height="180" />
+                                    </div>
+                                    <div class="col-7" style="padding:0;">
+                                        <div class="latest-news-heading">
+                                            <p>Ten Seminar in eight months, What?</p>
+                                        </div>
+                                        <div class="latest-news-official">
+                                            <p>28-09-2018 09:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 latest-news-row">
+                                <div class="row">
+                                    <div class="col-5 image-div">
+                                        <div class="image-badge"><p>Top 3</p></div>
+                                        <img class="latest-news-image" src="assets/images/Latest/11.jpg" width="230" height="180" />
+                                    </div>
+                                    <div class="col-7" style="padding:0;">
+                                        <div class="latest-news-heading">
+                                            <p>Ten Seminar in eight months, What?</p>
+                                        </div>
+                                        <div class="latest-news-official">
+                                            <p>28-09-2018 09:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 latest-news-row">
+                                <div class="row">
+                                    <div class="col-5 image-div">
+                                        <div class="image-badge"><p>Top 4</p></div>
+                                        <img class="latest-news-image" src="assets/images/Latest/11.jpg" width="230" height="180" />
+                                    </div>
+                                    <div class="col-7" style="padding:0;">
+                                        <div class="latest-news-heading">
+                                            <p>Ten Seminar in eight months, What?</p>
+                                        </div>
+                                        <div class="latest-news-official">
+                                            <p>28-09-2018 09:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 latest-news-row">
+                                <div class="row">
+                                    <div class="col-5 image-div">
+                                        <div class="image-badge"><p>Top 5</p></div>
+                                        <img class="latest-news-image" src="assets/images/Latest/11.jpg" width="230" height="180" />
+                                    </div>
+                                    <div class="col-7" style="padding:0;">
+                                        <div class="latest-news-heading">
+                                            <p>Ten Seminar in eight months, What?</p>
+                                        </div>
+                                        <div class="latest-news-official">
+                                            <p>28-09-2018 09:00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
+            </div>
+        </div>
+        <br />
+        <div class="footer">
+            <footer>
+                <div class="upper-footer">
+                    <div class="container">
+                        <div class="row ">
+                            <h4 class="col-12 center">Our Clients</h4>
+                            <img class="upper-footer-img" src="assets/images/footer/1.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/2.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/3.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/4.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/5.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/6.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/7.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/8.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/9.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/10.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/11.png" />
+                            <img class="upper-footer-img" src="assets/images/footer/1.png" />
+                        </div>
+                    </div>
+                </div>
+                <div class="middle-footer">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-4">
+                                <h6 class="center">Beijing</h6>
+                                <h6 class="center">China</h6>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="center">Social </h4>
+                                <i class="fab fa-facebook"></i>
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-instagram"></i>
+                                <i class="fab fa-pinterest"></i>
+                                <i class="fab fa-google"></i>
+                                <i class="fab fa-google-plus"></i>
+                                <i class="fab fa-youtube"></i>
+                            </div>
+                            <div class="col-4">
+                                <h4 class="center">Scan Qr Code</h4>
+                                <img class="rounded footer-image-qr" src="assets/images/qr.jpg" width="100" height="100" />
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="lower-footer">
+                    <div class="container">
+                        <p class="center">
+                            Copyright All Right Reserved
+                        </p>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
