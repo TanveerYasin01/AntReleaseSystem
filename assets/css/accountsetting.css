@@ -1,0 +1,77 @@
+.content {
+    font-size:12px;
+}
+.account-container {
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px #d2d1d1;
+}
+.account-setting-container {
+    width: 500px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px #d2d1d1;
+}
+.account-tabs {
+    border: 0;
+}
+.tabs {
+    padding: 30px;
+}
+.tabs-account {
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    margin-bottom:10px!important;
+    color:black;
+}
+    .tabs-account > .nav-account.active {
+        color: white;
+        background-color: #ff6a00;
+        border-bottom: 2px solid #ff6a00 !important;
+        border: 0;
+    }
+.nav-item a {
+    color: black;
+}
+.tabs-account-setting .nav-link.active {
+    color: #ff6a00;
+    border-bottom: 2px solid #ff6a00 !important;
+    border: 0;
+}
+.form-control {
+    height:30px;
+    background-color: #f5f5f5;
+    border-radius:0;
+    margin-right:5px;
+    font-size:12px;
+}
+.button-save {
+    background-color:#ff6a00;
+    border:1px solid #ff6a00;
+    color:white;
+    height:35px;
+}
+.btn-get-code {
+    background-color: #f5f5f5;
+    color:#ff6a00;
+    border:1px solid #d2d1d1;
+    border-radius:0;
+}
+.btn-get-code:hover {
+    background-color: #ff6a00;
+    color: white;
+    border: 1px solid #ff6a00;
+}
+.get-code {
+    padding: 0;
+}
+.get-code-input {
+    margin:0;
+}
+input:focus, textarea:focus, select:focus {
+    box-shadow: 0 0 5px #ff6a00;
+    border: 1px solid #ff6a00;
+}
