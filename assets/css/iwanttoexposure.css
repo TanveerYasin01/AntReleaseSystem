@@ -1,0 +1,110 @@
+/* CSS Document */
+
+.exposure-details {
+    font-size: 12px;
+    color: black;
+}
+
+.ck.ck-editor {
+    width: 100%!important;
+}
+.ck.ck-content {
+    height:300px!important;
+}
+
+.below-editor {
+    padding:20px;
+    background:#ededed;
+    color:#808080;
+}
+.input-row {
+    padding:5px;
+}
+
+.input-field {
+    padding-left:20px;
+    height:30px;
+    background:#f7f7f7;
+    border: 1px solid #cccbcb;
+    width: 100%;
+    color: #808080;
+}
+.input-field-verification {
+    padding-left: 20px;
+    height: 30px;
+    background: #f7f7f7;
+    border: 1px solid #cccbcb;
+    width: 300px;
+    color: #808080;
+}
+.anchor-another {
+    padding-left:20px;
+    color:blue;
+}
+.anchor-another:hover {
+    text-decoration:underline;
+    color: #ff6a00;
+}
+.text-area-field {
+    padding-left: 20px;
+    background: #f7f7f7;
+    border: 1px solid #cccbcb;
+    width: 100%;
+    color: #808080;
+}
+.circle {
+    color: red;
+}
+.select-field {
+    height: 24px;
+    border: 1px solid #cccbcb;
+    width: 120px;
+    color: #cccbcb;
+}
+
+.button-row {
+    padding: 20px;
+}
+
+.button-posted {
+    width: 200px;
+    border-radius: 3px;
+    padding: 10px;
+    background: #ff6a00;
+    border: 1px solid #ff6a00;
+    color: white;
+    margin: 5px;
+}
+    .button-posted:hover {
+        border:1px solid #ff6a00;
+        background:white;
+        color:#ff6a00;
+    }
+
+ul.breadcrumb {
+    padding: 0px 10px;
+    list-style: none;
+    background-color: white;
+    color: #808080;
+}
+
+    ul.breadcrumb li {
+        display: inline;
+        font-size: 12px;
+    }
+
+        ul.breadcrumb li + li:before {
+            padding: 8px;
+            color: black;
+            content: ">";
+        }
+
+        ul.breadcrumb li a {
+            color: #808080;
+            text-decoration: none;
+        }
+
+            ul.breadcrumb li a:hover {
+                color: #ff6a00;
+                text-decoration: underline;
+            }
