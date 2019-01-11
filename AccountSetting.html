@@ -35,13 +35,13 @@
                                 <a class="nav-link" href="AntRelease.html">Ant Release</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="AntRumor.html">Activity</a>
+                                <a class="nav-link" href="Activity.html">Activity</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Library.html">Library</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="javascript:void(0)">Refute Rumors</a>
+                                <a class="nav-link" href="AntRumor.html">Refute Rumors</a>
                             </li>
 
                         </ul>
@@ -77,7 +77,7 @@
                                     <a class="nav-link nav-account active center" data-toggle="tab" href="#account">Account Setting</a>
                                 </li>
                                 <li class="nav-item tabs-account">
-                                    <a class="nav-link nav-account center" data-toggle="tab" href="#authentication">Authentication</a>
+                                    <a class="nav-link nav-account center" data-toggle="tab" href="#certification">Certification</a>
                                 </li>
                             </ul>
                         </div>
@@ -229,10 +229,151 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="authentication" class="container tab-pane fade">
+                        <div id="certification" class="container tab-pane fade">
                             <br>
-                            <h3>Fifth Tab</h3>
-                            <p>Fifth will load here with picture and all its contents.....</p>
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs account-setting-tabs" role="tablist">
+                                <li class="nav-item tabs-account-setting">
+                                    <a class="nav-link active center" data-toggle="tab" href="#basic">Basic info</a>
+                                </li>
+                                <li class="nav-item tabs-account-setting">
+                                    <a class="nav-link center" data-toggle="tab" href="#changepassword">Change password</a>
+                                </li>
+                                <li class="nav-item tabs-account-setting">
+                                    <a class="nav-link center" data-toggle="tab" href="#modifycontact">Modify Contact Email</a>
+                                </li>
+                                <li class="nav-item tabs-account-setting">
+                                    <a class="nav-link center" data-toggle="tab" href="#modifyphone">Modify Bound Phone</a>
+                                </li>
+                            </ul>
+                            <div class="tab-content col-12">
+                                <div class="row">
+                                    <div class="alert alert-warning col-12">
+                                        <strong>Message!</strong> some message here...
+                                    </div>
+                                </div>
+                                <div class="image-badge"><p>Certification</p></div>
+                                <div id="basic" class="container tab-pane active">
+                                    <br>
+                                    <br>
+                                    <form action="#">
+                                        <div class="form-group row">
+                                            <label class="col-3" for="nickname">Real Name</label>
+                                            <input type="text" class="form-control col-4" placeholder="Enter Real Name..." id="pwd">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="">Contact Name</label>
+                                            <input type="text" class="form-control col-4" placeholder="Enter Contact..." id="pwd">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="">Micro letter</label>
+                                            <input type="text" class="form-control col-4" placeholder="Enter Micro Letter..." id="pwd">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="">Mobile phone</label>
+                                            <input type="text" class="form-control col-4" placeholder="Enter Phone Number..." id="pwd">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="">Document type</label>
+                                            <select class="form-control col-4">
+                                                <option>--Select--</option>
+                                                <option>pdf</option>
+                                                <option>word</option>
+                                                <option>text</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="">Document number</label>
+                                            <input type="text" class="form-control col-4" placeholder="Enter Document Number..." id="pwd">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="">Upload document</label>
+                                            <div class="col-4">
+                                                <input class="form-control" type="file" name="pic" accept="image/*">
+                                                <p>File must b an image only jpg,png is acceptable</p>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="pwd"></label>
+                                            <button type="submit" class="button-save col-4">Save</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                                <div id="changepassword" class="container tab-pane fade">
+                                    <br>
+                                    <br>
+                                    <form action="#">
+                                        <div class="form-group row">
+                                            <label class="col-3" for="password">Old password</label>
+                                            <input type="password" class="form-control col-4" placeholder="Enter old password..." id="old">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="password">New Password</label>
+                                            <input type="password" class="form-control col-4" placeholder="Enter new password..." id="new">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="password">Confirm Password</label>
+                                            <input type="password" class="form-control col-4" placeholder="Confirm password..." id="confirm">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="pwd"></label>
+                                            <button type="submit" class="button-save col-4">Save</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                                <div id="modifycontact" class="container tab-pane fade">
+                                    <br>
+                                    <br>
+                                    <form action="#">
+                                        <div class="form-group row">
+                                            <label class="col-3" for="password">New Email</label>
+                                            <input type="password" class="form-control col-4" placeholder="Enter old email..." id="old">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="password">New Phone</label>
+                                            <input type="password" class="form-control col-4" placeholder="Enter new phone..." id="new">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="password">Confirm Phone</label>
+                                            <input type="password" class="form-control col-4" placeholder="Confirm phone..." id="confirm">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="pwd"></label>
+                                            <button type="submit" class="button-save col-4">Save</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div id="modifyphone" class="container tab-pane fade">
+                                    <br>
+                                    <br>
+                                    <form action="#">
+                                        <div class="form-group row">
+                                            <label class="col-3" for="phone">Current Binding</label>
+                                            <input type="password" class="form-control col-5" placeholder="Enter current phone..." id="old">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="phone">Change phone</label>
+                                            <input type="password" class="form-control col-5" placeholder="Enter new phone..." id="new">
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="password"></label>
+                                            <div class="input-group get-code col-5">
+                                                <input type="text" class="form-control get-code-input" placeholder="Verification code">
+                                                <div class="input-group-append">
+                                                    <button class="btn-get-code" type="submit">Get code</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-3" for="button"></label>
+                                            <button type="submit" class="button-save col-5">Save</button>
+                                        </div>
+                                    </form>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>

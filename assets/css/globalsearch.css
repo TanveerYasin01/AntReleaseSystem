@@ -1,0 +1,50 @@
+/* CSS Document */
+.image-logo {
+    margin-left:auto;
+    margin-right:auto;
+}
+.get-code {
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-keyword {
+    margin-left: auto;
+    margin-right: auto;
+}
+    .search-keyword > p {
+        display: inline;
+        background: #f5f5f5;
+        border: 1px solid #d2d1d1;
+        padding: 0px 10px 5px 10px;
+    }
+    .input-group-append {
+        width: 100px;
+    }
+.btn-search {
+    width:100%;
+    background-color: #ff6a00;
+    color: white;
+    border: 1px solid #d2d1d1;
+    border-radius: 0;
+}
+
+    .btn-search:hover {
+        background-color: #f5f5f5;
+        color: #ff6a00;
+        border: 1px solid #ff6a00;
+    }
+
+.main-search {
+    padding: 20px;
+}
+.main-latest {
+    box-shadow: 0px 0px 10px #e5e5e5;
+    left: 10px;
+    height: 100%;
+    overflow-y: hidden;
+}
+
+.nav-tabs {
+    width: 90%;
+    margin-left: 4%;
+}

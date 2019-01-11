@@ -1,3 +1,33 @@
+.image-badge {
+    margin-left: -15px;
+    top: 50px;
+    position: absolute !important;
+    width: 115px;
+    height: 28px;
+    box-sizing: content-box;
+    padding-top: 3px;
+    background: #f5c83a;
+    color: white;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+}
+.image-badge > p {
+    margin-top:3px;
+}
+
+    .image-badge:after {
+        content: "";
+        position: absolute;
+        left: 105px;
+        bottom: 0;
+        width: 0;
+        height: 0;
+        border-right: 10px solid #fffefe;
+        border-top: 14px solid transparent;
+        border-bottom: 16px solid transparent;
+    }
 .content {
     font-size:12px;
 }

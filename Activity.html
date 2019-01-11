@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="assets/PlugIns/bootstrap-4.2.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/sitemap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/antrumor.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/activity.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/PlugIns/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
@@ -35,13 +35,13 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="AntRelease.html">Ant Release</a>
                             </li>
-                            <li class="nav-item">
+                            <li class="nav-item active">
                                 <a class="nav-link" href="Activity.html">Activity</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="Library.html">Library</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" href="AntRumor.html">Refute Rumors</a>
                             </li>
 
@@ -70,30 +70,48 @@
         <div class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-12 col-md-8 main-slider">
+                    <div id="slider" class="main-image-div col-12">
+                        <img src="assets/images/Slider/cover.jpg" class="main-image" alt="Los Angeles" width="1200" height="350">
+                        <div class="image-caption">
+                            <p>We had such a great time in LA!</p>
+                        </div>
+                        <div class="image-side-caption">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit 2018</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit 2018</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit 2018</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit 2018</p>
+                        </div>
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+                    <div class="col-12 col-md-9 main-slider">
                         <div id="latest-articles" class="row latest-articles">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
                                 <li class="nav-item">
-                                    <a class="nav-link active" data-toggle="tab" href="#state">State</a>
+                                    <a class="nav-link active" data-toggle="tab" href="#all">All</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#all">All</a>
+                                    <a class="nav-link" data-toggle="tab" href="#block">Block money</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#rumors">Rumors</a>
+                                    <a class="nav-link" data-toggle="tab" href="#artificial">AI</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#review">Review</a>
+                                    <a class="nav-link" data-toggle="tab" href="#information">IT</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" data-toggle="tab" href="#official">Official confirms</a>
+                                    <a class="nav-link" data-toggle="tab" href="#internet">Internet of things</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-toggle="tab" href="#investment">Investment</a>
                                 </li>
                             </ul>
 
                             <!-- Tab panes -->
                             <div class="tab-content col-12">
-                                <div id="state" class="container tab-pane active">
+                                <div id="all" class="container tab-pane active">
                                     <br />
                                     <div class="row latest-row">
                                         <div class="col-4">
@@ -235,62 +253,71 @@
                                         <button class="btn btn-outline-info center"> Read more...</button>
                                     </div>
                                 </div>
-                                <div id="all" class="container tab-pane fade">
+                                <div id="block" class="container tab-pane fade">
                                     <br>
-                                    <h3>All</h3>
+                                    <h3>BLock</h3>
                                     <p>This will load here.....</p>
                                 </div>
-                                <div id="rumors" class="container tab-pane fade">
+                                <div id="artificial" class="container tab-pane fade">
                                     <br>
-                                    <h3>Rumors</h3>
+                                    <h3>Artificial</h3>
                                     <p>This will load here.....</p>
                                 </div>
-                                <div id="review" class="container tab-pane fade">
+                                <div id="information" class="container tab-pane fade">
                                     <br>
-                                    <h3>Review</h3>
+                                    <h3>Information</h3>
                                     <p>This will load here.....</p>
                                 </div>
-                                <div id="official" class="container tab-pane fade">
+                                <div id="internet" class="container tab-pane fade">
                                     <br>
-                                    <h3>Official COnfirms</h3>
+                                    <h3>Internet</h3>
+                                    <p>This will load here.....</p>
+                                </div>
+                                <div id="investment" class="container tab-pane fade">
+                                    <br>
+                                    <h3>Investment</h3>
                                     <p>This will load here.....</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-12 col-md-3">
-                        <div class="col-12 main-button">
-                            <button class="button-release"><img src="assets/images/icons/edit.png" width="20" height="20" /> I want to exposure</button>
-                        </div>
                         <div class="col-12 main-latest">
                             <div class="Newsfeed row">
-                                <div class="NewsFeedHeader col-12"> Latest News </div>
+                                <div class="NewsFeedHeader col-12"> 7x24Hours </div>
                                 <br />
                                 <ul class="timeline">
                                     <li>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.....</p>
+                                        <span>10:20</span>
                                     </li>
                                     <li>
                                         <p>Curabitur purus sem, malesuada eu luctus eget...</p>
+                                        <span>10:20</span>
                                     </li>
                                     <li>
                                         <p>Fusce ullamcorper ligula sit ....</p>
+                                        <span>10:20</span>
                                     </li>
                                     <li>
                                         <p>Curabitur purus sem, malesuada eu luctus eget...</p>
+                                        <span>10:20</span>
                                     </li>
                                     <li>
                                         <p>Fusce ullamcorper ligula sit ....</p>
+                                        <span>10:20</span>
                                     </li>
                                     <li>
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.....</p>
+                                        <span>10:20</span>
                                     </li>
                                     <li>
                                         <p>Curabitur purus sem, malesuada eu luctus eget...</p>
+                                        <span>10:20</span>
                                     </li>
                                 </ul>
                             </div>
-                        </div>    
+                        </div>
                     </div>
                 </div>
                 <br />

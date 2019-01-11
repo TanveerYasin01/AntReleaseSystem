@@ -6,11 +6,12 @@
     <link rel="stylesheet" type="text/css" href="assets/PlugIns/bootstrap-4.2.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="assets/css/sitemap.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/iwanttorelease.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/globalsearch.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/PlugIns/bootstrap-4.2.1-dist/js/bootstrap.min.js"></script>
     <script src="assets/js/main.js"></script>
+
 </head>
 
 <body>
@@ -26,9 +27,9 @@
                     <div class="navbar-collapse collapse" id="navb" style="">
                         <ul class="navbar-nav mr-auto">
                             <li class="nav-item">
-                                <a class="nav-link" href="index.html">Home</a>
+                                <a class="nav-link active" href="index.html">Home</a>
                             </li>
-                            <li class="nav-item active">
+                            <li class="nav-item">
                                 <a class="nav-link" href="AntIntelligence.html">Ant Intelligence</a>
                             </li>
                             <li class="nav-item">
@@ -58,8 +59,8 @@
                         <div class="dropdown-menu">
                             <a class="dropdown-item" href="#">User Name</a>
                             <a class="dropdown-item" href="#">My Release</a>
-                            <a class="dropdown-item" href="#">My Wallet</a>
-                            <a class="dropdown-item" href="#">Exit</a>
+                            <a class="dropdown-item" href="#">My Purse</a>
+                            <a class="dropdown-item" href="#">Log Out</a>
                         </div>
                     </div>
                 </nav>
@@ -69,70 +70,34 @@
         <div class="content">
             <div class="container">
                 <div class="row">
-                    <div class="col-12">
-                        <div class="col-12 activity-details">
-                            <div class="row">
-                                <ul class="breadcrumb">
-                                    <li><a href="Activity.html">Acticities</a></li>
-                                    <li><a href="#">Activity Detail</a></li>
-                                </ul>
-                            </div>
-                            <div class="row">
-                                <div class="alert alert-warning col-12">
-                                    <strong>Message!</strong> copy copy copy copy.
-                                </div>
-                            </div>
-                            <div class="row">
-                                <h6>Enter a title (0/64)</h6>
-                            </div>
-                            <hr />
-                            <div class="row">
-                                <div id="editor" class="col-12">
-
-                                </div>
-                            </div>
-                            <div class="row below-editor">
-                                <div class="col-12">
-                                    <div class="row input-row">
-                                        <div class="col-2"><label class="float-right">Of:</label></div>
-                                        <div class="col-10"><input type="text" class="input-field" /></div>
-                                    </div>
-                                    <div class="row input-row">
-                                        <div class="col-2"><label class="float-right">Keyword:</label></div>
-                                        <div class="col-10"><input type="text" class="input-field" /></div>
-                                    </div>
-                                    <div class="row input-row">
-                                        <div class="col-2"><label class="float-right">Classification:</label></div>
-                                        <div class="col-10"><select class="select-field"><option></option></select></div>
-                                    </div>
-                                    <div class="row input-row">
-                                        <div class="col-2"><label class="float-right">Privacy Release:</label></div>
-                                        <div class="col-10"><select class="select-field"><option></option></select></div>
-                                    </div>
-                                    <div class="row input-row">
-                                        <div class="col-2"><label class="float-right">Original Statement:</label></div>
-                                        <div class="col-10"><select class="select-field"><option></option></select></div>
-                                    </div>
-                                    <div class="row input-row">
-                                        <div class="col-2"><label class="float-right">Cover:</label></div>
-                                        <div class="col-10"><input type="text" class="input-field-disabled" disabled/></div>
-                                    </div>
-                                    <div class="row input-row">
-                                        <div class="col-2"><label class="float-right">Summary:</label></div>
-                                        <div class="col-9"><textarea class="form-control" rows="3"></textarea></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="button-row">
-                                    <button class="button-posted center">Posted</button>
-                                    <button class="button-draft center">Save for draft</button>
-                                    <button class="button-draft center">preview</button>
+                    <img src="assets/images/logo.png" class="image-logo" width="150" height="40" id="UserImage" />
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-12 main-search">
+                        <div class="form-group row">
+                            <div class="input-group get-code col-9">
+                                <input type="text" class="form-control get-code-input" placeholder="Search here...">
+                                <div class="input-group-append">
+                                    <button class="btn-search" type="submit">Search</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 col-md-12">
+                        <div class="row">
+                            <div class="col-9 search-keyword">
+                                <h6>Search Keywords</h6>
+                                <p>city</p>
+                                <p>country</p>
+                                <p>release</p>
+                                <p>activity</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <br />
             </div>
         </div>
         <br />
@@ -192,18 +157,5 @@
             </footer>
         </div>
     </div>
-    <script src="assets/PlugIns/ckeditor5/ckeditor.js"></script>
-    <script>
-        ClassicEditor
-            .create(document.querySelector('#editor'), {
-                // toolbar: [ 'heading', '|', 'bold', 'italic', 'link' ]
-            })
-            .then(editor => {
-                window.editor = editor;
-            })
-            .catch(err => {
-                console.error(err.stack);
-            });
-    </script>
 </body>
 </html>
