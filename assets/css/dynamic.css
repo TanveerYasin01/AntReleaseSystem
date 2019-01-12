@@ -80,18 +80,15 @@
     height: 500px;
     overflow-y: hidden;
 }
-.carousel {
-    height:335px;
-}
-.carousel-inner {
-    height: 310px;
-}
-.carousel-control-prev, carousel-control-next {
-    height:310px;
-}
-.carousel-indicators li {
-    width: 230px;
+.page-item.active .page-link {
     background-color: #ff6a00;
+    border-color: #ff6a00;
+}
+.page-item .page-link {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    margin:2px;
+    color: #808080;
 }
 .nav-tabs {
     width: 90%;
