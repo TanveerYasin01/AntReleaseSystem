@@ -56,8 +56,8 @@ a{
     background-color:#ff6a00;
 }
 @media (max-width: 768px) {
-    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput {
-        display: none!important;
+    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button {
+        display: none !important;
     }
     .container {
         padding:0;
