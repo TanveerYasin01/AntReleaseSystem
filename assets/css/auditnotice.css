@@ -1,0 +1,93 @@
+
+.content {
+    font-size:12px;
+}
+.account-container {
+    width: 250px;
+    height: 275px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px #d2d1d1;
+}
+.audit-container {
+    padding:0;
+    width: 500px;
+    height: 650px;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0px 0px 10px #d2d1d1;
+}
+.account-tabs {
+    border: 0;
+}
+.tabs {
+    padding: 30px;
+}
+.tabs-account {
+    width: 100%;
+    margin-bottom:10px!important;
+}
+    .tabs-account > .nav-account.active {
+        color: #ff6a00;
+        border: 0;
+    }
+.nav-item a {
+    color: black;
+}
+.header-audit {
+    padding:10px;
+    background:#e5e5e5;
+}
+.audit-button {
+    padding:10px;
+}
+.audit-row {
+    padding:10px;
+}
+.audit {
+    width:100%;
+    border-bottom:1px solid #d2d1d1;
+}
+    .audit > p {
+        display:inline;
+    }
+.audit-detail {
+    display:inline;
+    font-size:12px;
+}
+.form-control {
+    height: 30px;
+    background-color: #f5f5f5;
+    border-radius: 0;
+    margin-right: 5px;
+    font-size: 12px;
+}
+
+.button-audit {
+    background-color: white;
+    color: black;
+    border: 1px solid #d2d1d1;
+    border-radius: 4px;
+    padding:5px;
+    margin:5px;
+}
+    .button-audit:hover {
+        background-color: #ff6a00;
+        color: white;
+        border: 1px solid #ff6a00;
+    }
+.pagination-row {
+    padding:20px;
+    margin-bottom:30px;
+}
+.page-item.active .page-link {
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+}
+
+.page-item .page-link {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    margin: 2px;
+    color: #808080;
+}
