@@ -49,7 +49,7 @@
                             <input class="SearchInput" type="text" placeholder="Search">
                         </form>
                     </div>
-                    <div class="Dynamic"><a><img src="assets/images/icons/dynamic.png" width="20" height="20"/> Dynamic</a></div>
+                    <div class="Dynamic"><a><img src="assets/images/icons/dynamic.png" width="20" height="20" /> Dynamic</a></div>
                     <div class="Notice"><a><img src="assets/images/icons/notice.png" width="20" height="20" /> Notice</a></div>
                     <div class="dropdown DropdownDiv">
                         <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">
@@ -72,16 +72,60 @@
                     <div class="col-md-3 col-12 left-side">
                         <div class="left-side-header">
                             <h6>Message</h6>
-                            <button class="button-operation">Operation</button>
+                            <button class="button-operation" id="Operation">Operation</button>
+                            <button class="button-clear" id="Clear">Clear All</button>
+                        </div>
+                        <div class="left-side-content">
+                            <div class="row user-name">
+                                <div class="form-check-inline" style="display:none;">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="" />
+                                    </label>
+                                </div>
+                                <a class="center"><img src="assets/images/userimage.png" width="50" height="50" /> Nickname</a>
+                            </div>
+                            <div class="row user-name">
+                                <div class="form-check-inline" style="display:none;">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="" />
+                                    </label>
+                                </div>
+                                <a class="center"><img src="assets/images/userimage.png" width="50" height="50" /> Nickname</a>
+                            </div>
+                            <div class="row user-name">
+                                <div class="form-check-inline" style="display:none;">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="" />
+                                    </label>
+                                </div>
+                                <a class="center"><img src="assets/images/userimage.png" width="50" height="50" /> Nickname</a>
+                            </div>
+                            <div class="row user-name">
+                                <div class="form-check-inline" style="display:none;">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" class="form-check-input" value="" />
+                                    </label>
+                                </div>
+                                <a class="center"><img src="assets/images/userimage.png" width="50" height="50" /> Nickname</a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-md-9 col-12 right-side">
                         <div class="right-side-header">
                             <h6 class="center">Nicknames</h6>
                         </div>
-                        <div class="right-side-content"></div>
+                        <div class="right-side-content">
+                            <div class="messages" id="messages">
+                                <div class="message-div">
+                                    <span class="float-right">
+                                        <span class="message-span">message from client </span>
+                                        <img src="assets/images/userimage.png" width="30" height="30" />
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
                         <div class="right-side-textarea">
-                            <textarea class="form-control" rows="8"></textarea>
+                            <textarea class="form-control" rows="8" id="client-message"></textarea>
                         </div>
                     </div>
                 </div>
@@ -144,5 +188,23 @@
             </footer>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function () {
+            $("#Operation").click(function () {
+                $(".form-check-inline").toggle();
+                $("#Clear").toggle();
+            });
+            $("#client-message").on("keypress", function (e) {
+                var code = e.keyCode || e.which;
+                var html = '<div class="message-div"><span class="float-right" ><span class="message-span">' + $("#client-message").val() +' </span> <img src="assets/images/userimage.png" width="30" height="30" /></span ></div >';
+                if (code === 13) {
+                    $("#messages").append(html);
+                    $("#client-message").val("");
+                }
+            });
+        });
+
+    </script>
 </body>
 </html>
