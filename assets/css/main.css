@@ -1,7 +1,5 @@
 /* CSS Document */
-/*.container {
-    max-width: 100% !important;
-}*/
+
 body {
     font-family: ".PingFang-SC-Regular";
 }
@@ -32,10 +30,8 @@ a{
 }
 .navbar {
     padding:0;
-    /*font-size:12px;*/
 }
 .navbar-collapse {
-    /*font-size: 12px;*/
 }
 .Dynamic {
     margin: 5px;
@@ -58,14 +54,6 @@ a{
 .carousel-indicators li {
     width: 200px;
     background-color:#ff6a00;
-}
-@media (max-width: 768px) {
-    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button {
-        display: none !important;
-    }
-    .container {
-        padding:0;
-    }
 }
 .header {
     padding: 10px;
@@ -111,6 +99,7 @@ a{
     width:100%;
     margin-bottom:10px;
 }
+
 .center {
     text-align: center;
 }
@@ -148,3 +137,32 @@ a{
     border-radius: 6px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
 }
+
+@media (max-width: 768px) {
+    .main-header {
+        font-size: 18px !important;
+    }
+    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button, .popular-relaese {
+        display: none !important;
+    }
+
+    .container {
+        padding: 0;
+    }
+}
+
+@media (max-width: 992px) {
+    .main-header {
+        font-size: 18px;
+    }
+    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button, .popular-relaese {
+        display: none !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .main-header {
+        font-size: 12px!important;
+    }
+}
+
