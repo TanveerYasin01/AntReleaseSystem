@@ -2,7 +2,7 @@
     margin-left: -15px;
     top: 50px;
     position: absolute !important;
-    width: 115px;
+    width: 130px;
     height: 28px;
     box-sizing: content-box;
     padding-top: 3px;
@@ -14,13 +14,13 @@
     text-transform: uppercase;
 }
 .image-badge > p {
-    margin-top:3px;
+    margin-top:5px;
 }
 
     .image-badge:after {
         content: "";
         position: absolute;
-        left: 105px;
+        left: 120px;
         bottom: 0;
         width: 0;
         height: 0;
@@ -100,6 +100,9 @@
 }
 .get-code-input {
     margin:0;
+}
+.input-upload {
+    height:38px;
 }
 input:focus, textarea:focus, select:focus {
     box-shadow: 0 0 5px #ff6a00;
