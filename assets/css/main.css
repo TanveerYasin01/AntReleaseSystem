@@ -10,18 +10,18 @@ a{
 	cursor:pointer;
 }
 .nav-link {
-    color: black;
+    color: #676975;
     /*font-size: 12px;*/
 }
 .nav-item.active {
-    border-bottom: 3px solid #ff6a00;
+    border-bottom: 3px solid #FF6633;
 }
     .nav-item.active > .nav-link {
-        color: #ff6a00;
+        color: #FF6633;
     }
 .SearchInput {
     margin-right:20px;
-    font-size:16px;
+    font-size:15px;
     border:1px solid rgba(0,0,0,0.3);
     padding-left:10px;
     max-width: 160px;
@@ -36,15 +36,19 @@ a{
 }
 .Dynamic {
     margin: 5px;
+    font-size: 15px;
 }
 .Notice {
     margin: 5px;
+    font-size: 15px;
 }
-
+.DropdownDiv {
+    font-size:15px;
+}
 .main-header {
-    font-size:16px;
-    margin-bottom:10px;
-    box-shadow: 0px 0px 10px grey; 
+    font-size: 18px;
+    margin-bottom: 10px;
+    box-shadow: 0px 0px 10px grey;
 }
 .carousel-indicators {
     margin-left:0;
@@ -141,7 +145,7 @@ a{
 
 @media (max-width: 768px) {
     .main-header {
-        font-size: 16px !important;
+        font-size: 18px !important;
     }
     .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button, .popular-relaese {
         display: none !important;
@@ -154,7 +158,7 @@ a{
 
 @media (max-width: 992px) {
     .main-header {
-        font-size: 16px;
+        font-size: 18px;
     }
     .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button, .popular-relaese {
         display: none !important;
