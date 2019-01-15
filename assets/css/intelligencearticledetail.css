@@ -12,7 +12,7 @@
 }
 .MoreFeedHeader {
     border-bottom: 3px solid #ff6a00;
-    padding: 18px;
+    padding: 16px;
     font-weight: bold;
 }
 .main-button {
@@ -210,7 +210,7 @@ ul.timeline {
 }
 .article-details p {
     color: #808080;
-    font-size: 18px
+    font-size: 16px
 }
 .article-specs {
     color: #808080;
@@ -320,7 +320,7 @@ ul.breadcrumb {
 
     ul.breadcrumb li {
         display: inline;
-        font-size: 18px;
+        font-size: 16px;
     }
 
         ul.breadcrumb li + li:before {
