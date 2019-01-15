@@ -2,6 +2,9 @@
 /*.container {
     max-width: 100% !important;
 }*/
+body {
+    font-family: ".PingFang-SC-Regular";
+}
 ul{
 	list-style-type:none;
 }
@@ -10,7 +13,7 @@ a{
 }
 .nav-link {
     color: black;
-    font-size: 12px;
+    /*font-size: 12px;*/
 }
 .nav-item.active {
     border-bottom: 3px solid #ff6a00;
@@ -19,7 +22,7 @@ a{
         color: #ff6a00;
     }
 .SearchInput {
-    font-size:12px;
+    font-size:16px;
     border:1px solid rgba(0,0,0,0.3);
     padding-left:10px;
     max-width: 160px;
@@ -29,10 +32,10 @@ a{
 }
 .navbar {
     padding:0;
-    font-size:12px;
+    /*font-size:12px;*/
 }
 .navbar-collapse {
-    font-size: 12px;
+    /*font-size: 12px;*/
 }
 .Dynamic {
     margin: 5px;
@@ -42,6 +45,7 @@ a{
 }
 
 .main-header {
+    font-size:18px;
     margin-bottom:10px;
     box-shadow: 0px 0px 10px grey; 
 }
@@ -103,8 +107,12 @@ a{
     color:white;
     background-color:#dbdbdb;
 }
+.image-responsive {
+    width:100%;
+    margin-bottom:10px;
+}
 .center {
-    text-align:center;
+    text-align: center;
 }
 .upper-footer-img {
     margin: 20px;
