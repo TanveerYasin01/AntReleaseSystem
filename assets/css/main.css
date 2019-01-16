@@ -172,7 +172,7 @@ a{
     .main-header {
         font-size: 18px !important;
     }
-    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button, .popular-relaese {
+    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button, .popular-relaese, .login  {
         display: none !important;
     }
 
@@ -185,7 +185,7 @@ a{
     .main-header {
         font-size: 18px;
     }
-    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button, .popular-relaese {
+    .Dynamic, .Notice, .DropdownDiv, .main-latest, .below-courasel, .main-extras, .SearchInput, .main-button, .popular-relaese, .login {
         display: none !important;
     }
 }
