@@ -58,6 +58,18 @@ a{
 .DropdownDiv {
     font-size:15px;
 }
+.login {
+    padding-left:10px;
+}
+.login > a{
+    color:black;
+    font-size:15px;
+    text-decoration:none;
+}
+.login > a:hover {
+    color: #ff6a00;
+    text-decoration: underline;
+}
 .main-header {
     font-size: 18px;
     margin-bottom: 10px;

@@ -1,13 +1,13 @@
 .login-container {
-    width: 300px;
-    height: 350px;
+    width: 480px;
+    height: 560px;
     margin-left: auto;
     margin-right: auto;
     box-shadow: 0px 0px 10px #d2d1d1;
 }
 
 .login-header {
-    padding: 20px;
+    padding: 40px;
 }
 
 .login-form {
@@ -16,7 +16,8 @@
 
 .input-link {
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 70px;
+    font-size:14px;
 }
 
 .login-link-forget {
@@ -36,11 +37,11 @@ a:hover {
 .login-input {
     padding-left: 10px;
     margin-left: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     margin-right: auto;
-    width: 200px;
-    height: 30px;
-    font-size: 14px;
+    width: 360px;
+    height: 50px;
+    font-size: 18px;
     border: 1px solid #d2d1d1;
 }
 
@@ -52,10 +53,11 @@ a:hover {
 .login-button {
     margin-top: 15px;
     margin-left: 50px;
-    width: 200px;
-    height: 30px;
+    width: 360px;
+    height: 50px;
     background-color: #ff6a00;
     color: white;
+    font-size:18px;
     border: 1px solid #ff6a00;
 }
 
@@ -67,17 +69,18 @@ a:hover {
 
 .more-login-header {
     padding-top: 40px;
-    width: 150px;
+    width: 300px;
     margin-left: 75px;
 }
 
 .more-login-icons {
-    margin-left: 123px;
+    margin-left: 167px;
 }
 
 .login-with-image {
-    width: 15px;
-    height: 15px;
+    margin:5px;
+    width: 25px;
+    height: 25px;
 }
 
 .fancy {
@@ -87,7 +90,7 @@ a:hover {
 
     .fancy span {
         color: #d2d1d1;
-        font-size: 14px;
+        font-size: 16px;
         display: inline-block;
         position: relative;
     }
