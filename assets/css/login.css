@@ -11,7 +11,7 @@
 }
 
 .login-form {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .input-link {
@@ -40,7 +40,7 @@ a:hover {
     margin-right: auto;
     width: 200px;
     height: 30px;
-    font-size: 12px;
+    font-size: 14px;
     border: 1px solid #d2d1d1;
 }
 
@@ -87,7 +87,7 @@ a:hover {
 
     .fancy span {
         color: #d2d1d1;
-        font-size: 13px;
+        font-size: 14px;
         display: inline-block;
         position: relative;
     }

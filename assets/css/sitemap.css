@@ -4,12 +4,12 @@
 	border: 1px solid;
 	padding: 0px;
 	background-color: #F0F0F0;
-	    font-size: 12px;
+	    font-size: 14px;
     color: #4a4a4a;
 	}
 	.pluginname{
 		font-family: 'Trebuchet MS';
-    font-size: 12px;
+    font-size: 14px;
     letter-spacing: 1px;
     white-space: nowrap;
     margin-bottom: 5px;
@@ -45,7 +45,7 @@
 .sitemapPageIcon {
 	margin: 0px 0px -3px 4px;
 	width: 16px;
-	height: 13px;
+	height: 14px;
 	background-repeat: no-repeat;
 	display: inline-block;
 	background-image: url(../images/sitemap/page.svg);

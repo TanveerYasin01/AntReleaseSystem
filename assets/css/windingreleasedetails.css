@@ -7,10 +7,12 @@
 .NewsFeedHeader {
     border-bottom: 3px solid #ff6a00;
     padding: 15px;
+    font-size: 20px;
     font-weight: bold;
-    margin-bottom:15px;
+    margin-bottom: 15px;
 }
 .MoreFeedHeader {
+    font-size: 20px;
     border-bottom: 3px solid #ff6a00;
     padding: 15px;
     font-weight: bold;
@@ -79,8 +81,8 @@
     left: 10px;
     height: 400px;
     overflow-y: hidden;
-    font-size:12px;
-    margin-bottom:10px;
+    font-size: 16px;
+    margin-bottom: 10px;
 }
 .popular-relaese {
     box-shadow: 0px 0px 10px #e5e5e5;
@@ -94,7 +96,7 @@
     left: 10px;
     height: 230px;
     overflow-y: hidden;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 .icon-number-div {
@@ -108,7 +110,7 @@
     color:#b7b5b5;
     height: 200px;
     overflow-y: hidden;
-    font-size: 12px;
+    font-size: 14px;
     margin-bottom: 10px;
 }
 .social-icon {
@@ -174,8 +176,8 @@ ul.timeline {
 .latest-row {
     margin-bottom: 20px;
     cursor: pointer;
-    height:165px;
-    border-bottom: 2px solid #e5e5e5;
+    height: 165px;
+    border-bottom: 1px solid #e5e5e5;
 }
    
 .latest-image {
@@ -183,22 +185,22 @@ ul.timeline {
 }
 .latest-heading h6{
     padding:0;
-    font-size:20px;
+    font-size:22px;
 }
 .latest-context {
-    font-size: 13px;
-    color:#b7b5b5;
+    font-size: 14px;
+    color: #999999;
 }
 .latest-official h6 {
     color: #b7b5b5;
-    font-size: 13px;
+    font-size: 14px;
     padding: 0;
     margin-left: 10px;
     display: inline;
 }
 .latest-official span {
     color: #b7b5b5;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .latest-news-row {
@@ -213,22 +215,22 @@ ul.timeline {
 
 .latest-news-heading{
     padding: 0;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .latest-news-official {
     color: #b7b5b5;
-    font-size: 11px;
+    font-size: 14px;
     padding: 0;
     margin-left: 0px;
 }
 .article-details p {
     color: #808080;
-    font-size: 12px
+    font-size: 14px
 }
 .article-specs {
     color: #808080;
-    font-size: 12px;
+    font-size: 14px;
 }
 .article-image {
     width:100%;
@@ -237,6 +239,7 @@ ul.timeline {
 }
 .participate-heading {
     border-left: 5px solid #ff6a00;
+    font-size: 24px;
 }
 .participate-comment-area {
     margin-top:20px;
@@ -248,12 +251,18 @@ ul.timeline {
 }
 .latest-comment-heading {
     border-left: 5px solid #ff6a00;
+    font-size: 24px;
 }
 
 .latest-comment-area {
     padding: 30px;
-    border-bottom:1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    font-size: 16px;
 }
+
+    .latest-comment-area p {
+        font-size: 16px;
+    }
 .new-comment {
     border : 1px solid #e5e5e5;
 }
@@ -265,7 +274,7 @@ ul.timeline {
     background: #f5f5f5;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 12px;
+    font-size: 14px;
 }
 .instruction {
     padding: 10px;
@@ -319,7 +328,7 @@ ul.timeline {
     display:inline;
 }
 .my-user-name {
-    font-size:12px;
+    font-size:14px;
     display: inline;
 }
 .user-image {
@@ -331,7 +340,7 @@ ul.timeline {
     position: absolute;
 }
 .user-number {
-    font-size:13px;
+    font-size:14px;
 }
 ul.breadcrumb {
     padding: 0px 10px;
@@ -342,7 +351,7 @@ ul.breadcrumb {
 
     ul.breadcrumb li {
         display: inline;
-        font-size: 12px;
+        font-size: 14px;
     }
 
         ul.breadcrumb li + li:before {

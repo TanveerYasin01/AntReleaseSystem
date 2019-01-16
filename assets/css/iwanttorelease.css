@@ -1,7 +1,7 @@
 /* CSS Document */
 
 .activity-details {
-    font-size:12px;
+    font-size:14px;
     color:#808080;
 }
 
@@ -85,7 +85,7 @@ ul.breadcrumb {
 
     ul.breadcrumb li {
         display: inline;
-        font-size: 12px;
+        font-size: 14px;
     }
 
         ul.breadcrumb li + li:before {

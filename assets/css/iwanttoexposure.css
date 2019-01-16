@@ -1,7 +1,7 @@
 /* CSS Document */
 
 .exposure-details {
-    font-size: 12px;
+    font-size: 14px;
     color: black;
 }
 
@@ -90,7 +90,7 @@ ul.breadcrumb {
 
     ul.breadcrumb li {
         display: inline;
-        font-size: 12px;
+        font-size: 14px;
     }
 
         ul.breadcrumb li + li:before {

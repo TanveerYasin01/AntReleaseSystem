@@ -5,20 +5,15 @@
     left: 10px;
     height: 470px;
     overflow-y: hidden;
-    font-size:12px;
+    font-size: 16px;
 }
 
 .nav-tabs {
     width: 100%;
 }
 
-.nav-tabs .nav-link.active {
-    color: #ff6a00;
-    border-bottom: 2px solid #ff6a00 !important;
-    border: 0;
-}
 .latest-row {
-    font-size:12px;
+    font-size:14px;
     margin-bottom: 20px;
     cursor: pointer;
     height:250px;
@@ -38,7 +33,7 @@
 .file-name {
     margin-top: 30px;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 14px;
 }
 .file-image {
     width:120px;

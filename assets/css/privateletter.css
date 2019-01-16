@@ -1,6 +1,6 @@
 
 .content {
-    font-size:12px;
+    font-size:14px;
 }
 .private-letter {
     height: 600px;
@@ -60,7 +60,7 @@
     background-color: #fefdfd;
     border-radius: 0;
     margin-right: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .button-operation {

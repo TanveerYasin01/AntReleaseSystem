@@ -9,7 +9,7 @@
     padding: 20px;
 }
 .signup-form {
-    font-size: 12px;
+    font-size: 14px;
 }
 .input-link {
     padding-left: 50px;
@@ -37,7 +37,7 @@ a:hover {
     margin-right: auto;
     width: 200px;
     height: 30px;
-    font-size: 12px;
+    font-size: 14px;
     border: 1px solid #d2d1d1;
 }
     .signup-input:focus {
@@ -61,8 +61,8 @@ a:hover {
     }
 .signup-footer {
     padding:18px;
-    font-size:12px;
-    margin-top:12px;
+    font-size:14px;
+    margin-top:14px;
     height: 50px;
     background-color: #f1f0f0;
 }

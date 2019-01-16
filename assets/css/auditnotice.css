@@ -1,6 +1,6 @@
 
 .content {
-    font-size:12px;
+    font-size:14px;
 }
 .account-container {
     width: 250px;
@@ -53,14 +53,14 @@
     }
 .audit-detail {
     display:inline;
-    font-size:12px;
+    font-size:14px;
 }
 .form-control {
     height: 30px;
     background-color: #f5f5f5;
     border-radius: 0;
     margin-right: 5px;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .button-audit {

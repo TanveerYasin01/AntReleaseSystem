@@ -8,11 +8,13 @@
     border-bottom: 3px solid #ff6a00;
     padding: 15px;
     font-weight: bold;
-    margin-bottom:15px;
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 .MoreFeedHeader {
     border-bottom: 3px solid #ff6a00;
     padding: 15px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -82,20 +84,11 @@ ul.timeline {
         border: 1px solid #e5e5e5;
         border-radius: 5px;
     }
-
-/*.latest-articles {
-    padding: 20px;
-}*/
-.nav-tabs .nav-link.active {
-    color: #ff6a00;
-    border-bottom: 2px solid #ff6a00 !important;
-    border: 0;
-}
 .latest-row {
     margin-bottom: 20px;
     cursor: pointer;
-    height:165px;
-    border-bottom: 2px solid #e5e5e5;
+    height: 165px;
+    border-bottom: 1px solid #e5e5e5;
 }
    
 .latest-image {
@@ -103,22 +96,22 @@ ul.timeline {
 }
 .latest-heading h6{
     padding:0;
-    font-size:20px;
+    font-size:22px;
 }
 .latest-context {
-    font-size: 13px;
-    color:#b7b5b5;
+    font-size: 14px;
+    color: #999999;
 }
 .latest-official h6 {
     color: #b7b5b5;
-    font-size: 13px;
+    font-size: 14px;
     padding: 0;
     margin-left: 10px;
     display: inline;
 }
 .latest-official span {
     color: #b7b5b5;
-    font-size: 13px;
+    font-size: 14px;
 }
 
 .latest-news-row {
@@ -133,12 +126,12 @@ ul.timeline {
 
 .latest-news-heading{
     padding: 0;
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .latest-news-official {
     color: #b7b5b5;
-    font-size: 11px;
+    font-size: 14px;
     padding: 0;
     margin-left: 0px;
 }
