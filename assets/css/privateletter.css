@@ -1,6 +1,7 @@
 
 .content {
     font-size:14px;
+    margin-bottom:100px;
 }
 .private-letter {
     height: 600px;
@@ -49,8 +50,10 @@
     border-bottom: 1px solid #d2d1d1;
 }
 .right-side-content {
+    overflow:hidden;
+    overflow-y:scroll;
     position:relative;
-    height:400px;
+    height:372px;
 }
 .nav-item a {
     color: black;

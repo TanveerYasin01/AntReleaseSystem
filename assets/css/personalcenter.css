@@ -210,3 +210,19 @@ ul.breadcrumb {
                 color: #ff6a00;
                 text-decoration: underline;
             }
+.pagination-row {
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.page-item.active .page-link {
+    background-color: #ff6a00;
+    border-color: #ff6a00;
+}
+
+.page-item .page-link {
+    background-color: #e5e5e5;
+    border-color: #e5e5e5;
+    margin: 2px;
+    color: #808080;
+}
