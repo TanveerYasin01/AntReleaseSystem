@@ -341,3 +341,33 @@ ul.breadcrumb {
                 color: #ff6a00;
                 text-decoration: underline;
             }
+.token {
+    padding: 10px;
+    background: #f5f5f5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.login-div {
+    width: 100%;
+    padding-right: 20px;
+}
+.button-div {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.button-comment {
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    background: #ff6a00;
+    border: 1px solid #ff6a00;
+    color: white;
+}
+
+    .button-comment:hover {
+        background-color: #f5f5f5;
+        color: #ff6a00;
+        border: 1px solid #ff6a00;
+    }

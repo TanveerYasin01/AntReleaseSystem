@@ -11,14 +11,20 @@
 .nav-tabs {
     width: 100%;
 }
-
+.latest-image {
+    margin-top:30px;
+    width:100px;
+    height:100px;
+    border-radius:5px;
+    margin-bottom:10px;
+}
 .latest-row {
-    font-size:14px;
+    font-size: 14px;
     margin-bottom: 20px;
     cursor: pointer;
-    height:250px;
+    height: 260px;
     background-color: #f5f5f5;
-    padding:20px;
+    padding: 20px;
 }
 .latest-icon {
     margin-top:30px;
